@@ -152,24 +152,27 @@ h1 {
 @keyframes move-n-grow {
     0% {
         left: 0; 
-        transform: translate(-100%, 0);
+        transform: translate(90%, -100%);
     }
-    10% {
-        left: 10%;
-        transform: translate(-100%, 100%);  
-    }
-    55% {
-        left: 50%;
-        transform: translate(-100%, 0);
-    }
-    60% {
-      left: 60%;
-      transform: translate(-100%, 0);
-    }
-    100% {
-        left: 100%;
 
-        transform: translate(-100%, 0);
+    25% {
+        left: 50%;
+        transform: translate(0, 100%);
+    }
+
+    50% {
+        left: 100%;
+        transform: translate(-150%, -100%);
+    }
+    
+    75% {
+        left: 50%;
+        transform: translate(0, 100%);
+    }
+
+    100% {
+        left: 0;
+        transform: translate(90%, -100%);
     }
 }
 
