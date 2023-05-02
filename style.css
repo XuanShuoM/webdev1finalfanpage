@@ -151,27 +151,27 @@ h1 {
 @keyframes move-n-grow {
     0% {
         left: 0; 
-        transform: translate(90%, -100%);
+        transform: translate(80%, -100%);
     }
 
     25% {
         left: 50%;
-        transform: translate(0, 100%);
+        transform: translate(0, 100%) rotate(360deg);
     }
 
     50% {
         left: 100%;
-        transform: translate(-150%, -100%);
+        transform: translate(-180%, -100%);
     }
     
     75% {
         left: 50%;
-        transform: translate(0, 100%);
+        transform: translate(0, 100%) rotate(-360deg);
     }
 
     100% {
         left: 0;
-        transform: translate(90%, -100%);
+        transform: translate(80%, -100%);
     }
 }
 
