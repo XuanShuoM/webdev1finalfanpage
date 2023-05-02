@@ -63,11 +63,14 @@ h1 {
     font-size: 1.2rem;
 }
 
+#pagelink {
+    color:black;
+}
+
 #ball {
     margin-top: 2rem;
     width: 20px;
     height: 20px;
-    border-radius: 50%;
     animation: move-n-grow 2s forwards infinite;
 }
 @keyframes move-n-grow {
