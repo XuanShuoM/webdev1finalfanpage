@@ -70,6 +70,10 @@ body {
       height: .25rem;
     }
     
+    #menu-toggle:hover {
+        cursor: pointer;
+    }
+
     #menu-toggle:hover .patty {
       background-color: #bcfa00;
     }  
@@ -89,6 +93,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 999;
 }
   
 footer {
@@ -118,6 +123,7 @@ main {
     margin: 4rem auto;
     max-width: 40rem;
     padding: 1rem;
+    position: relative;
 }
 
 h1 {
@@ -134,7 +140,10 @@ h1 {
     color:#bcfa00;
 }
 
+/* Bouncing tennis ball img */
+
 #ball {
+    position: absolute;
     margin-top: 2rem;
     width: 20px;
     height: 20px;
@@ -142,21 +151,29 @@ h1 {
 }
 @keyframes move-n-grow {
     0% {
-        transform: translate(100%, -45%);
+        left: 0; 
+        transform: translate(-100%, 0);
     }
     10% {
-        transform: translate(300%, 0);
+        left: 10%;
+        transform: translate(-100%, 100%);  
     }
     55% {
-        transform: translate(600%, -45%) rotate(360deg);
+        left: 50%;
+        transform: translate(-100%, 0);
     }
     60% {
-      transform: translate(300%, 0);
+      left: 60%;
+      transform: translate(-100%, 0);
     }
     100% {
-        transform: translate(0, -45%) scale(1) rotate(-360deg);
+        left: 100%;
+
+        transform: translate(-100%, 0);
     }
 }
+
+
 
 h2 {
     padding: 1rem 0;
