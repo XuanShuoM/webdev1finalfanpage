@@ -8,6 +8,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-image: url(../images/dark.jpg);
+    color: #bcfa00;
+}
+
 /* MENU STUFF */
 
 @media (max-width: 43.75rem) {
@@ -172,4 +177,19 @@ h2 {
 p {
     padding: 1rem;
     line-height: 1.5;
+}
+
+.back-to-top {
+  text-decoration: none;
+  padding: 1em;
+  background-color: rgba(178, 170, 170, 0.667);
+  border-radius: 0.5em;
+  font-weight: bold;
+  line-height: 0.5;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  color: white;
+  position: fixed;
+  right: 0.625em;
+  bottom: 0.625em;
 }
