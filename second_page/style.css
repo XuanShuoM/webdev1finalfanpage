@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 /* MENU STUFF */
 
 
@@ -73,7 +83,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 98%;
+    width: 100%;
 }
   
 footer {
@@ -111,4 +121,14 @@ h1 {
 
 .byline {
     font-size: 1.2rem;
+}
+
+h2 {
+    padding: 1rem 0;
+    padding-top: 5rem;
+}
+
+p {
+    padding: 1rem;
+    line-height: 1.5;
 }
