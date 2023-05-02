@@ -10,7 +10,6 @@ html {
 
 /* MENU STUFF */
 
-
 @media (max-width: 43.75rem) {
   
     #menu-toggle {
@@ -100,12 +99,9 @@ header a {
     text-decoration: none;
 }
 
-#menu {
-    display: none;
-}
-
 .menu-flex-wrapper {
     display: flex;
+    gap: 1rem;
 }
 
 header a:hover {
