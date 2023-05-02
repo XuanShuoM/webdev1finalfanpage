@@ -22,6 +22,7 @@ header {
 }
   
 footer {
+    padding-top: 2rem;
     text-align: center;
 }
 
@@ -51,6 +52,32 @@ main {
 
 h1 {
     color: blueviolet;
+}
+
+#ball {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: move-n-grow 2s forwards infinite;
+}
+@keyframes move-n-grow {
+    0% {
+        transform: translate(100%, -45%);
+    }
+    10% {
+        transform: translate(300%, 0);
+    }
+    55% {
+        transform: translate(600%, -45%) rotate(360deg);
+    }
+    60% {
+      transform: translate(300%, 0);
+    }
+    100% {
+        transform: translate(0, -45%) scale(1) rotate(-360deg);
+    }
+
+
 }
 
 /* MENU STUFF */
