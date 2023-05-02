@@ -106,9 +106,12 @@ header a {
     text-decoration: none;
 }
 
+#menu {
+    display: none;
+}
+
 .menu-flex-wrapper {
     display: flex;
-    gap: 1rem;
 }
 
 header a:hover {
