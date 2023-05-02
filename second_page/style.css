@@ -65,6 +65,10 @@ html {
       height: .25rem;
     }
     
+    #menu-toggle:hover {
+        cursor: pointer;
+    }
+
     #menu-toggle:hover .patty {
       background-color: #bcfa00;
     }  
