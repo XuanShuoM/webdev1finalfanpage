@@ -8,6 +8,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-image: url(/images/tennisracket.jpg);
+}
+
 header, footer {
     background-color: #00531f;
     padding: 1rem;
