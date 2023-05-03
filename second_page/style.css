@@ -153,6 +153,11 @@ img {
   object-fit: cover;
 }
 
+.slide:hover {
+  transform: translateX(10%);
+  color: salmon;
+}
+
 /* Bouncing tennis ball img */
 
 #ball {
